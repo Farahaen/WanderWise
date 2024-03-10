@@ -1,0 +1,121 @@
+/* General */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: system, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, "Segoe UI", sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #333;
+    background-color: transparent;
+}
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    overflow: hidden;
+}
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 0;
+    line-height: 1.4;
+    white-space: nowrap;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn-mini { padding: 2px 6px; }
+.btn-large { padding: 6px 12px; }
+/* Form Elements */
+.form-control {
+    width: 100%;
+    min-height: 25px;
+    padding: 5px 10px;
+    line-height: 1.6;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+}
+.form-control:focus {
+    border-color: #6db3fd;
+    box-shadow: 3px 3px 0 #6db3fd, -3px -3px 0 #6db3fd, -3px 3px 0 #6db3fd, 3px -3px 0 #6db3fd;
+}
+/* Lists */
+.list-group {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-group-item {
+    padding: 10px;
+    font-size: 12px;
+    color: #414142;
+    border-top: 1px solid #ddd;
+}
+.list-group-item:first-child {
+    border-top: 0;
+}
+.list-group-item.active,
+.list-group-item.selected {
+    color: #fff;
+    background-color: #116cd6;
+}
+.list-group-header {
+    padding: 10px;
+}
+/* Media Objects */
+.media-object {
+    margin-top: 3px;
+}
+.media-object.pull-left { margin-right: 10px; }
+.media-object.pull-right { margin-left: 10px; }
+/* Navigation */
+.nav-group { font-size: 14px; }
+.nav-group-item {
+    padding: 2px 10px 2px 25px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+.nav-group-item.active, .nav-group-item:active {
+    background-color: #dcdfe1;
+}
+.nav-group-item .icon {
+    width: 19px;
+    height: 18px;
+    float: left;
+    color: #737475;
+    margin-top: -3px;
+    margin-right: 7px;
+    font-size: 18px;
+    text-align: center;
+}
+.nav-group-title {
+    padding: 10px 10px 2px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+}

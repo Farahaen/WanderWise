@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; /* Hide horizontal scrollbar */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .bg-image {
+    /* The image used */
+    background-image: url("image1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #333;
+      border: 2px solid #fff;
+      border-radius: 15px;
+      box-shadow: 0 5px #999;
+      text-decoration: none;
+      }
+
+  .button:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+  .button:active {
+      background-color: #ffcc00;
+      box-shadow: 0 3px #666;
+      transform: translateY(4px);
+  }
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  h1{
+      font-size: 70px;
+      margin-top: 20px;
+  }
+  h2{
+      margin-top: -50px;
+  }

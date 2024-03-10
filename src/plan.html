@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8" />
+    <title>Plan</title>
+    <link rel="stylesheet" href="plan.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+  </head>
+<body>
+  <!--Below is the coding for the navigation bar-->
+    <div id="navbar">
+        <h1>WanderWise</h1>
+        <p>Lets Plan Your Trip Better With Us!</p>
+        <hr>
+        <div id="nav-links">
+            <a href="index.html" id="home-link">Home</a>
+            <a href="plan.html" id="plan-link">Plan Your Trip</a>
+        </div>
+    </div>
+    <br>
+    <!--Below is the coding for the the box where user can read,update,create and delete their travel plan-->
+    <div class="mainWrapper">
+        <h1>Plan Your Travel!</h1>
+    
+        <form>
+          <!--Below is the coding for the the form where user enter their details and destinations-->
+          <div class="form-group">
+            <label>Destination</label>
+            <input id="fileName" type="text" class="form-control" placeholder="add .txt at the end (example: japan.txt)">
+          </div>
+          <div class="form-group">
+            <label>Details</label>
+            <textarea id="fileContents" class="form-control" rows="5" placeholder="Enter details about your travel plan"></textarea>
+          </div>
+        </form>
+        <!--Below is the coding for read,update,create and delete button-->
+        <button id="btnCreate" class="btn btn-default">Add</button>
+        <button id="btnRead" class="btn btn-default">Read</button>
+        <button id="btnUpdate" class="btn btn-default">Edit</button>
+        <button id="btnDelete" class="btn btn-default">Delete</button>
+        <p id="message"></p>
+    </div>
+    <div id="footer-content">
+        <p>&copy; 2024 WanderWise. All rights reserved.</p>
+        <p>Contact us: <a href="#">wanderwide@gmail.com</a> </p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

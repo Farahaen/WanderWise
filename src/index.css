@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url('image7.jpg');
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  text-align: center;
+}
+/*css for navigation bar*/
+#navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+#navbar h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+#navbar p {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 15px;
+}
+#navbar hr {
+  border: none;
+  border-top: 1px solid #666;
+  margin: 10px 0;
+}
+/*css for navigation bar buttons for next pages*/
+#nav-links {
+  text-align: center;
+}
+#nav-links a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: beige;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#nav-links a:hover {
+  border: 2px solid beige;
+  background-color: black;
+  color: beige;
+}
+/*css for the container for the data displayed*/
+#container {
+  max-width: 800px;
+  margin: 20px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*css for the user input their destination*/
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 20px auto;
+  margin-bottom: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*css for enter button*/
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+button:hover {
+  background-color: #555;
+}
+label {
+  font-weight: bold;
+}
+/*css for footer*/
+#footer-content {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  text-align: center;
+}
+#footer-content p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+#footer-content p:first-child {
+  font-weight: bold;
+}
+#footer-content p a {
+  color: #fff; /* default color */
+  text-decoration: none; /* remove underline */
+}
+/* Hover effect */
+#footer-content p a:hover {
+  text-decoration: underline; /* underline on hover */
+  color: #ffcc00; /* change color on hover */
+}
+/*css for the imgages slides*/
+.mySlides {
+  display: none;
+}
+.fade {
+  animation: fade 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshow-container {
+  text-align: center;
+  max-width: 1200px; 
+  height: 300px; 
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.mySlides img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+h1 {
+  font-family: 'Comic Sans MS', cursive; /* Use a cursive font */
+  text-align: center;
+}
+/*css for greet after user click enter*/
+#greet {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--Below is the coding for the navigation bar-->
+    <div id="navbar">
+      <h1>WanderWise</h1>
+      <p>Lets Plan Your Trip Better With Us!</p>
+      <hr>
+      <div id="nav-links">
+          <a href="index.html" id="home-link">Home</a>
+          <a href="plan.html" id="plan-link">Plan Your Trip</a>
+      </div>
+    </div>
+    <!--Below is the coding for the image slide-->
+    <div id ="container">
+      <h1>Bon Voyage!</h1>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="image1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="image2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="image3.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="image4.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="image5.jpg" style="width:100%">
+        </div>
+      </div>
+      <!--Below is the coding for user to type their destination to search the information about the destination-->
+      <input type="text" id="country" placeholder="Enter your desitination">
+      <!--Below is the coding for button enter to display the information -->
+      <button type="'button" onclick="buttonClicked()">ENTER</button>
+      <br>
+      <!--Below is the coding for informations that will be displayed after user click enter-->
+      <p id="greet"></p>
+      <div id = "data" >
+        <br>
+        <div class="row1">
+          <p id = "countryname"></p>
+          <p id = "officialname"></p>
+          <p id = "capitalcity"></p>
+          <p id = "money"></p>
+        </div>
+        <div class = "row2">
+          <p id = "region"></p>
+          <p id = "subregion"></p>
+          <p id = "languages"></p>
+          <p id="population"></p>
+        </div>
+        <div class = "row3">
+          <div id = "flag"></div>
+          <p id = "flagdesc"></p>
+        </div>
+        <div class = "row4">
+          <p id = "location"></p>
+          <p id = "continent"></p>
+          <p id = "map"></p>
+        </div>
+      </div> 
+    </div>
+    <br>
+    <div id="footer-content">
+      <p>&copy; 2024 WanderWise. All rights reserved.</p>
+      <p>Contact us: <a href="#">wanderwide@gmail.com</a> </p>
+    </div>
+    <script src="index2.js"></script>
+  </body>
+</html>
